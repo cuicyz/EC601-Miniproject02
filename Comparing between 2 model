@@ -1,1 +1,8 @@
-123
+The difference between model 1 and model 2 is the epoch.
+For model 1, the epoch is 10. For model 2, the epoch is 5.
+the validation accuracy for model 1 is 91%
+the validation accuracy for model 2 is 87%
+We know that when the epochs increases, more number of times the weight are balanced in the network. 
+In this way, the network is developing from underfitting to optimal to overfitting.
+When epoch is 5, the network is a little bit underfitting. From my test, I suppose 10 is a great value of epoch.
+The validation accuracy will decrease if the epochs are too high.
